@@ -6,7 +6,7 @@ $(document).ready(() => {
   });
 
   $(window).on('load scroll', () => {
-     //$('.fa-bars').removeClass('fa-times');
+     $('.fa-bars').removeClass('fa-times');
      //$('.navbar').removeClass('nav-toggle')
 
      if($(window).scrollTop() > 30){
